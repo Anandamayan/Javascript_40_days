@@ -1,9 +1,9 @@
-// // Scope & Scope Chaining
-// // Global Scope
-// // Function Scope
-// // Block Scope
+// Scope & Scope Chaining
+// Global Scope
+// Function Scope
+// Block Scope
 
-// //Global Scope
+//Global Scope
 
 // let favCar = "BMW";
 
@@ -19,7 +19,7 @@
 //     console.log(favCar);
 // }
 
-// // Function Scope
+// Function Scope
 
 // function greet(){
 //     var name = "Anandamayan";
@@ -27,9 +27,9 @@
 // }
 
 // greet();
-// // console.log(name); //We can't access a variable outside the function
+// console.log(name); //We can't access a variable outside the function
 
-// // Block Scope
+// Block Scope
 
 // {
 //     let age = "25";
@@ -159,18 +159,18 @@ function1();
 
 let x = "Global";
 
-function outer() {
+function outer1() {
     let x = "Outer";
 
-    function inner() {
+    function inner1() {
         let x = "Inner";
         console.log(x);
     }
 
-    inner();
+    inner1();
 }
 
-outer();
+outer1();
 
 //  What will be the output and why?
 function counter() {
