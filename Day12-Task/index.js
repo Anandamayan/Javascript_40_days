@@ -271,6 +271,16 @@ const toObject = Object.fromEntries(modelDetails);
 console.log(toObject);
 
 
+const employee = {
+    salary : 15000,
+}
+
+console.log(employee.salary,"salary");
+console.log(employee.name);
+// console.log(employee.name.fname);
+console.log(employee.name?.fname);
+
+
 
 
 
